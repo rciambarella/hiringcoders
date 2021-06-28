@@ -2,9 +2,10 @@ ReadMe.md
 ************************* 28 de junho de 2021 *********************************
 "# hiringcoders" 
 
-"Estou participabdo do Hiring Code edição 2, comecei dia 25 de junho de 2021, ká estou aprendendo com as playlist, 
-estou na playlist sobrte GitHub, é uma ferramenta para versionamento de projetos, comnpartilhando programas e experiências
-com a comunidade, as pessoas podem se integrar e criar versões do mesmo programa, gerando sinergia com produtividade e melhorias 
-a cada versçao atualizada no git hub! Muito legal!"
+"Estou participando do # Hiring Code edição 02, comecei dia 25 de junho de 2021, já estou aprendendo com os treinamentos, 
+estou na playlist sobre GitHub, é uma ferramenta para versionamento de projetos, comnpartilhando programas e experiências
+com a comunidade, as pessoas podem integrar, incluir e criar novas versões do programa, gerando sinergia entre a comunidade de Devs, proporcionando
+produtividade, agilidade e segurança de dados. 
+- Git hub Muito legal!"
 
-\/\/\/\/\///\//\////\/////\/\/\/\/\/\/\/\/\/\/\/\/\/\///////\/////\//////\///\////
+*******************************************************************************
