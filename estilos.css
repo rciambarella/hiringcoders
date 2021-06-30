@@ -1,6 +1,46 @@
         body {
-            background-color: yellow;
-            color:green;
+            background-color:lightpink;
+            color: black;
             font-size: x-large;
             text-align: left;
         }
+        #bloco-post{
+            margin-left:5px;
+            margin-top:5;
+            border-color:indigo;
+            width:1200px;
+            height:1400px;
+            }            }
+        
+        #div1{
+            margin-left:10px;
+            margin-top:60px;
+            width:300px;
+            height:140px;
+            border: 1px solid black;    
+        }
+           
+        #div2{
+            margin-left:450px;
+            margin-top:30px;
+            border-color: darkblue;
+            width:300px;
+            height:140px;
+            border: 1px solid black;
+            }
+        #div3{
+            margin-left:10px;
+            margin-top:240px;
+            border-color:darkgreen;
+            width:300px;
+            height:140px;
+            border: 1px solid black;
+            }
+        #div4{
+            margin-left:450px;
+            margin-top:120px;
+            border-color:darkorchid;
+            width:300px;
+            height:140px;
+            border: 1px solid black;
+            }

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!--Inicio Cabeçalho-->
+
+<head>
+    <title>Página para Exercicios HTML | Gama Academy</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Texto descritivo da página web" />
+    <meta name="Rubens Ciambarella" content="GamaAcademy" />
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<header role="banner">
+    <p> ***Acessibilidade Linguagem Texto Interação em HTML5 Hiring Coders em São Paulo - SP - Brazil ***</p>
+
+    <nav role="navigation" aria-level="main navigation">
+        <ul role="menu">
+            <li>
+                <a href="#" role="menuitem">Home</a>
+            </li>
+            <li>
+                <a href="#" role="menuitem">Quem Somos</a>
+            </li>
+            <li>
+                <a href="#" role="menuitem">Contato</a>
+            </li>
+            <li>
+                <a href="#" role="menuitem">Conteúdos</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<!--Fim do Cabeçalho-->
+
+<body>
+
+    <main role="main">
+
+        <p>
+            Grogu é um personagem da série de televisão original Star Wars Disney + The Mandalorian. Ele é um membro
+            pequeno da mesma espécie alienígena sem nome dos personagens de Star Wars Yoda e Yaddle, comquem ele
+            compartilha uma forte habilidade na Força.
+            <img src="imagem/ferrari.jpg" alt="imagem1" title="imagem1" />
+        </p>
+
+        <buttom aria-label="Acesse o site oficial do Evento para saber mais" aria-LabelLedby="bsite"> Saber Mais sobre o Assunto</buttom>
+
+        <p id="bsite">Site do Evento</p>
+
+        <p Lang="en">
+             Grogu in English - Text write in English, The lenguage is very important because help Me!
+            <img src="imagem/ferrari.jpg" alt="imagem2" title="imagem2" />
+        </p>
+
+        <p>
+            Segundo a descoberta da Jedi, Baby Yoda foi salvo e sobreviveu à queda da República depois das Guerras
+            Clônicas e o surgimento do Império. "Alguém o retirou do templo", diz Ahsoka. "Mas suas memórias ficam no
+            escuro após isso." ... Caso ele seja bem-sucedido, algum mestre Jedi poderá sentir sua presença e ir
+            encontrá-lo!
+            <img src="imagem/ferrari.jpg" alt="imagem3" title="imagem3" />
+        </p>
+
+        <form action="#" method="POST">
+
+            <label for="campo1">Nome</label>
+            <input type="text" name="nome" id="campo1" />
+
+            <label for="campo2">Interesses de Área de Estudo</label>
+            <select name="interesse" id="campo2">
+                <option value="1">Administração</option>
+                <option value="2">Contabilidade</option>
+                <option value="3">Quimica</option>
+                <option value="4">Publicidade</option>
+            </select>
+
+            <fieldset>
+                <legend>Interesses de Turno</legend>
+                <label for="campo31">Matutino</label>
+                <input type="radio" name="interesse2" value="1" id="campo31" />
+                <label for="campo32">Diurno</label>
+                <input type="radio" name="interesse2" value="1" id="campo32" />
+                <label for="campo33">Noturno</label>
+                <input type="radio" name="interesse2" value="1" id="campo33" />
+            </fieldset>
+
+            <fieldset>
+                <label>Interesses de Professores</label>
+                <label for="campo41">Alberto</label>
+                <input type="checkbox" name="interesse3" value="1" id="campo41" />
+                <label for="campo42">Joaquim</label>
+                <input type="checkbox" name="interesse3" value="2" id="campo42" />
+                <label for="campo43">Paulo</label>
+                <input type="checkbox" name="interesse3" value="3" id="campo43" />
+            </fieldset>
+
+            <input type="submit" value="Enviar o formulário" />
+
+        </form>
+
+
+    </main>
+
+
+</body>
+
+<!--Rodapé-->
+<footer role="contentinfo"> 
+    &copy; 2020 Gama Academy - Rubens Ciambarella - 30 de junho de 2021
+</footer>
+
+
+</html>
