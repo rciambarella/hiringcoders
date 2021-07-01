@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!--Inicio Cabeçalho-->
+
+<head>
+    <title>Página para Exercicios HTML | Gama Academy</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Texto descritivo da página web" />
+    <meta name="Rubens Ciambarella" content="GamaAcademy" />
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<!--Fim do Cabeçalho-->
+
+<header>
+    <p>(*)(*)(*)(*)(*) Hiring Coders HTML5 DOM EVENTOS em São Paulo - SP - Brazil (*)(*)(*)(*)(*)</p>
+    <nav role="navigation" aria-level="main navigation">
+        <ul role="menu">
+            <li>
+                <a href="#" role="menuitem">Home</a>
+            </li>
+            <li>
+                <a href="#" role="menuitem">Quem Somos</a>
+            </li>
+            <li>
+                <a href="#" role="menuitem">Contato</a>
+            </li>
+            <li>
+                <a href="#" role="menuitem">Conteúdos</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <main>
+        <!-- DOM EVENTOS HTML com JavaScript -->
+
+        <p id="texto1">
+            Um evento são ações ou ocorrências que acontecem no sistema que estamos desenvolvendo, no qual este te
+            alerta sobre essas ações para que você possa responder de alguma forma, se desejado. Por exemplo, se o
+            usuário clica em um bot]ao numa página web, você pode quere responder a esta ação mostrando na tela uma
+            caixa de informações.
+
+            FONTE: MDN Web Docs
+        </p>
+
+        <button id="botao1" onclick="atualizacao()">Atualização de Texto</button>
+
+        <script type="text/javascript">
+           function atualizacao() {
+                var texto1 = document.getElementById("texto1");
+                texto1.innerText = "Novo paragrado com texto alão ao clicar no botão";
+            }
+        </script>
+
+    </main>
+
+</body>
+
+<!--Rodapé-->
+<footer>
+
+</footer>
+
+</html>

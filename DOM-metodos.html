@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!--Inicio Cabeçalho-->
+
+<head>
+    <title>Página para Exercicios HTML | Gama Academy</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Texto descritivo da página web" />
+    <meta name="Rubens Ciambarella" content="GamaAcademy" />
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<!--Fim do Cabeçalho-->
+
+<header>
+    <p>(*)(*)(*)(*)(*) Hiring Coders HTML5 DOM MÈTODOS em São Paulo - SP - Brazil (*)(*)(*)(*)(*)</p>
+    <nav role="navigation" aria-level="main navigation">
+        <ul role="menu">
+            <li>
+                <a href="#" role="menuitem">Home</a>
+            </li>
+            <li>
+                <a href="#" role="menuitem">Quem Somos</a>
+            </li>
+            <li>
+                <a href="#" role="menuitem">Contato</a>
+            </li>
+            <li>
+                <a href="#" role="menuitem">Conteúdos</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <main>
+        <!-- DOM MÈTODOS HTML com JavaScript -->
+
+        <p id="article-description">
+            Um método é uma função associada a um objeto, ou, simplesmente, um método é uma propriedade de um objeto
+            que é uma função.
+            Métodos são definidos de uma forma que as funções normais são definidas, exceto que eles tenham que ser
+            aribuidos como propriedades de um objeto.
+
+            FONTE: MDN Web Docs
+        </p>
+
+        <p>
+            Um método é uma função associada a um objeto, ou, simplesmente, um método é uma propriedade de um objeto
+            que é uma função.
+            Métodos são definidos de uma forma que as funções normais são definidas, exceto que eles tenham que ser
+            aribuidos como propriedades de um objeto.
+
+            FONTE: MDN Web Docs
+        </p>
+
+        <script type="text/javascript">
+            var paragrafo = document.getElementById("article-description"); 
+            paragrafo.style.color = "blue";
+
+            paragrafo.innerText = "Texto aleterado de forma dinâmica através do JavaScript elemento paragrafo!!!";
+
+
+        </script>
+
+    </main>
+
+</body>
+
+<!--Rodapé-->
+<footer>
+
+</footer>
+
+</html>
