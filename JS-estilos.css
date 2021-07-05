@@ -1,0 +1,231 @@
+.card-container{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    margin: 10px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}   
+
+.description {
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 14px;
+}
+
+.price{
+    font-weight: 600;
+}
+
+.buy-button{
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid black;
+    padding:  5px;
+    margin: 5px 0;
+   }
+
+.buy-button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: darkorange;
+}
+
+@media (max-width: 700px){
+    .buy-button{
+        width: 100%;
+        border-radius: 0;        
+    }
+    .card{
+        flex-basis: 100%;
+
+    }
+    .description{
+        display: none;
+    }
+    img{
+        display: none;
+    }
+}
+div{
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+img{
+    width: 100px;
+}
+        
+        /*
+.produto-nome{
+  font-family: 'Roboto', sans-serif;  
+}
+
+        @media(max-width: 300px){
+            .my-div{
+                background-color: red;
+            }
+        }
+
+        body {
+            background-color:lightpink;
+            color: black;
+            font-size: x-large;
+            text-align:center;
+           }
+
+        .parent-container classe parent-container e associado a div 
+        {
+            font-family:'Courier New', Courier, monospace;
+            height: 570px;
+            width: 600px;
+            border: 15px solid green;
+            margin-top: 20px;            
+            margin-left: 350px;
+            background-color: darkyellow;
+            font-size:30px;
+        }
+
+    .my-div{ uso . p/identificar class 
+        color:forestgreen;
+        height:15px;
+        background:fuchsia
+        }
+    
+        @media (max-width: 600px){
+            background-color: black;
+        }
+        
+    div {
+        color: blue;
+    }
+
+    #my-div-id{
+        color:firebrick;
+    }
+
+    .my-div::first-letter{
+        font-size: 50px;
+    }
+
+    #my-input{ uso # p/identificar id 
+        background-color: dodgerblue;
+    }
+
+    #my-input:hover{ uso # p/identificar id * com uma pseudo classe :hover
+        background-color: goldenrod;
+    }
+    span[atributoCustomizado] {
+        color: rgb(9, 10, 8);
+    }
+           
+        .flex-div{
+            width: 500px; largura
+            height: 500px; altura 
+            display: flex;
+            
+            largura total: 500px
+            espaço sobrando: 300px
+
+            fator de crescimento da div fiho 1: 2/3 x 300px = 200px
+            fator de crescimento da div fiho 2: 1/3 x 300px = 100px
+
+            justify-content: space-around;
+            flex-wrap:wrap ;
+            flex-direction: row;
+        }
+        .child-div{
+            border: 3px solid black;
+            flex-basis:300px;
+            flex-grow:2;
+            width: 80px;
+            height:25px;
+            
+        }
+        .child-div1{
+            border: 3px solid black;
+            flex-basis:100px;
+            flex-grow:1;
+            width: 80px;
+            height:50px;
+            
+        }
+       
+        .my-div{
+            background-color:whitesmoke;
+            padding: 10px 10px;
+            margin: 7px 7px;
+            border: 5px dashed red;
+            color: rgb(0,0,185);
+            font-weight:900;
+            font-family:fantasy;
+            font-size: 10
+        }
+        .my-div2{
+            background-color: whitesmoke;
+            padding: 20px 20px;
+            margin: 7px 7px;
+            border: 5px dashed royalblue;
+            color: rgba(0,0,185, 0.4);
+            font-weight:bold;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+        }
+
+        .my-div3{
+            background-color: whitesmoke;
+            padding: 30px 30px;
+            margin: 7px 7px;
+            border: 5px dashed royalblue;
+            color: rgba(0,0,185, 0.4);
+            font-weight:bold;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size:50px;
+        }
+
+        .my-div4{
+            background-color: whitesmoke;
+            padding: 40px 40px;
+            margin: 7px 7px;
+            border: 5px dashed royalblue;
+            color: rgba(0,0,185, 0.4);
+            font-weight:bold;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size:70px;
+        }
+
+        #bloco-post{
+            margin-left:5px;
+            margin-top:5;
+            border-color:indigo;
+            width:1200px;
+            height:1400px;
+        }      
+  
+        .div { 
+            A propriedade border tem a sintaxe abaixo detalhada, porém podemos usar a sintaxe em 1 linha ex: border: solid 5px red;
+            border-color: red;
+            border-style: solid;
+            border-bottom: 5px;
+            border-top: 5px;
+            border-left: 5px;
+            border-right: 5px;
+            text-align: center;
+            border: solid 5px red;
+            propriedade fallback procura as fontes na sequencia font-family:'Courier New', Courier, monospace; 
+            font-family:'Courier New', Courier, monospace;
+            margin-top: 10px; /* px valor absoluto ou 80% que representa o body (pai) 
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 100px;
+        }
+        */
+    
