@@ -1,10 +1,22 @@
 body {
-    background-color:lightpink;
+    background-color: lightgrey;
     color: black;
     font-size: x-large;
     text-align:center;
    }
+
+   .to-dos{
+    margin-left: 663px;
+    text-align:left;   
+    width: 400px;
+    }
    
+   #input:hover{
+       background-color: cornflowerblue;
+       border: 2px solid green;      
+   }
+
+   /*
 .card-container{
     display:flex;
     width: 100%;
@@ -60,18 +72,9 @@ body {
         display: none;
     }
 }
-div{
-    border: 1px solid black;
-    width: 200px;
-    margin-left: 30px;
-}
-
-
 img{
     width: 100px;
-}
-        
-        /*
+}    
 .produto-nome{
   font-family: 'Roboto', sans-serif;  
 }
