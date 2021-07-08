@@ -8,7 +8,7 @@ const livros = [
         id: 1,
         nome: "Digital Minimalism",
         autor: "Cal Mewport",
-        categoria: "Produtividade e Estilo de Vida",
+        categoria: "Produtividade",
         paginas: 254,
         recomenda: false,
         leu: false
@@ -44,7 +44,7 @@ const livros = [
         id: 5,
         nome: "Thinking, fast and slowérica Latina",
         autor: "Daniel Kahneman",
-        categoria: "Estilo de vida",
+        categoria: "Estilo",
         paginas: 418,
         recomenda: true,
         leu: true
