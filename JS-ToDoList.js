@@ -20,7 +20,8 @@ let lists = [] //array de objetos to do list
     }
 */
 
-newListForm.addEventListener('submit',function(e) { // botao funcionar e ligar com o input método addWventListener nativa js escutador de evento nativa do java script
+newListForm.addEventListener('submit',function(e) { // botao funcionar e ligar com o input método addWventListener 
+                                                    // nativa js escutador de evento nativa do java script
     e.preventDefault() // toda tag form, tem um comportamento d navegador, a pagina é atualizada a cada submit
     const listName = newListInput.value //armazena na variavel lisName cada item digitado no formulário
 

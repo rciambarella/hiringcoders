@@ -1,0 +1,24 @@
+{
+  "name": "hiringcoders",
+  "version": "1.0.0",
+  "description": "ReadMe.md\r ************************* 28 de junho de 2021 *********************************\r \"# hiringcoders\"",
+  "main": "JS-ConvertToFahrenheit.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node JS-projeto-app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rciambarella/hiringcoders.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rciambarella/hiringcoders/issues"
+  },
+  "homepage": "https://github.com/rciambarella/hiringcoders#readme"
+}
