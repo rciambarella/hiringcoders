@@ -36,7 +36,6 @@ push(115);
 push(128);
 push(180);
 
-
 console.log("*************")
 
 // esvaziar array elementos

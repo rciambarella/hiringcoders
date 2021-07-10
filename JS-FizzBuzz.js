@@ -7,20 +7,20 @@ console.log(" Exercicio FizzBuzz.js 03/07/2021 ");
 // Se não for um número ? Então, não é numero
 // Se não for divisivel por 3 e nem por 5 ? Então, Entrada
 
-let resultado = fizzBuzz(19);
+let resultado = fizzBuzz(15);
 console.log(resultado)
 
-function fizzBuzz(entrada){
+function fizzBuzz(entrada) {
     if (typeof entrada !== 'number')
         return 'Atenção! - Não foi digitado número!'
-    if ((entrada % 3 ===0) && (entrada % 5 ===0))
+    if ((entrada % 3 === 0) && (entrada % 5 === 0))
         return 'FizzBuzz'
-        if (entrada % 3 === 0){
+    if (entrada % 3 === 0) {
         return 'Fizz'
-    }else if (entrada % 5 === 0){      
+    } else if (entrada % 5 === 0) {
         return 'Buzz'
     }
-    return "Entrada divergente "+entrada
+    return "Entrada divergente " + entrada
 }
 /*
 class Livro {
